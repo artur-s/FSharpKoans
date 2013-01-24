@@ -1,0 +1,74 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutAsserts.fs" caret="1410" fromTop="19" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutLet.fs" caret="2660" fromTop="21" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutFunctions.fs" caret="1885" fromTop="17" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutTheOrderOfEvaluation.fs" caret="933" fromTop="23" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutUnit.fs" caret="890" fromTop="21" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutTuples.fs" caret="2145" fromTop="11" />
+      <File id="71460AA5-7357-4F1C-99BC-54244B50B00E/f:KoanContainer.fs" caret="476" fromTop="13" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutBranching.fs" caret="2745" fromTop="26" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutStrings.fs" caret="2809" fromTop="13" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutLists.fs" caret="3999" fromTop="20" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutPipelining.fs" caret="1817" fromTop="17" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutArrays.fs" caret="1693" fromTop="33" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutDotNetCollections.fs" caret="2617" fromTop="19" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutLooping.fs" caret="1020" fromTop="13" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:MoreAboutFunctions.fs" caret="2641" fromTop="22" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutTheStockExample.fs" caret="3445" fromTop="14" />
+      <File id="71460AA5-7357-4F1C-99BC-54244B50B00E/f:Helpers.fs" caret="313" fromTop="11" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutRecordTypes.fs" caret="722" fromTop="17" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutLists.fs" caret="3132" fromTop="30" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutLists.fs" caret="3427" fromTop="29" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutLists.fs" caret="3997" fromTop="22" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutLists.fs" caret="3704" fromTop="11" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutPipelining.fs" caret="918" fromTop="28" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutPipelining.fs" caret="1356" fromTop="27" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutPipelining.fs" caret="1734" fromTop="21" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutPipelining.fs" caret="1987" fromTop="24" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutArrays.fs" caret="569" fromTop="17" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutArrays.fs" caret="1159" fromTop="14" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutArrays.fs" caret="1383" fromTop="22" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutArrays.fs" caret="1693" fromTop="33" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutDotNetCollections.fs" caret="734" fromTop="14" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutDotNetCollections.fs" caret="1070" fromTop="20" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutDotNetCollections.fs" caret="1223" fromTop="9" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutDotNetCollections.fs" caret="1876" fromTop="23" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutDotNetCollections.fs" caret="2058" fromTop="12" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutDotNetCollections.fs" caret="2342" fromTop="16" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutDotNetCollections.fs" caret="2658" fromTop="20" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutLooping.fs" caret="675" fromTop="16" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutLooping.fs" caret="853" fromTop="18" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutLooping.fs" caret="1020" fromTop="13" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:MoreAboutFunctions.fs" caret="650" fromTop="16" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:MoreAboutFunctions.fs" caret="1308" fromTop="22" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:MoreAboutFunctions.fs" caret="1574" fromTop="29" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:MoreAboutFunctions.fs" caret="2090" fromTop="30" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:MoreAboutFunctions.fs" caret="2641" fromTop="28" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutTheStockExample.fs" caret="3057" fromTop="37" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutTheStockExample.fs" caret="3012" fromTop="17" />
+      <File id="87C025E8-3E63-4A20-B1CA-2E346D0E0C51/f:AboutTheStockExample.fs" caret="3211" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
