@@ -57,6 +57,19 @@ module ``about the stock example`` =
 
     [<Koan>]
     let YouGotTheAnswerCorrect() =
-        let result =  __
+        let getGreatestVarianceOfOpenAndClose data =
+            let extractDateAndOpenClose = function
+                | [|date; openn; _; _; close; _; _ |] -> (date, System.Double.Parse openn, System.Double.Parse close)
+                | _ -> failwith "sth is really wrong"
+
+            data
+            |> List.tail
+            |> List.map (fun (x:string) -> x.Split([|','|]))
+            |> List.map extractDateAndOpenClose
+            |> List.map (fun (date, openn, close) -> (date, abs ( close - openn )))
+            |> List.maxBy (fun (date, variance) -> variance)
+            |> fst
+
+        let result =  getGreatestVarianceOfOpenAndClose stockData
         
         AssertEquality "2012-03-13" result
