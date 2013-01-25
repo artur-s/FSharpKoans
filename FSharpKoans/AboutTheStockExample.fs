@@ -55,23 +55,39 @@ module ``about the stock example`` =
     // tests for yourself along the way. You can also try 
     // using the F# Interactive window to check your progress.
 
+    open System
+
     [<Koan>]
     let YouGotTheAnswerCorrect() =
 
+        let extractDateAndOpenCloseVariance = function
+            | [|date; openn; _; _; close; _; _ |] -> (date, Double.Parse openn - Double.Parse close)
+            | _ -> failwith "sth is really wrong"
+
         let getGreatestVarianceOfOpenAndClose data =
-
-            let extractDateAndOpenClose = function
-                | [|date; openn; _; _; close; _; _ |] -> 
-                    (date, System.Double.Parse openn - System.Double.Parse close)
-                | _ -> failwith "sth is really wrong"
-
             data
             |> List.tail
             |> List.map (fun (x:string) -> x.Split([|','|]))
-            |> List.map extractDateAndOpenClose
+            |> List.map extractDateAndOpenCloseVariance
             |> List.maxBy (fun (date, diff) -> abs diff)
             |> fst
 
+
+        let getGreatestVarianceOfOpenAndClose2 (header::data) =
+            let rec getGreatestVarianceOfOpenAndCloseRec data maxVarDate maxVar =
+                match data with
+                | [] -> maxVarDate
+                | (row:string)::rest ->
+                    let (date, variance) = row.Split([|','|]) |> extractDateAndOpenCloseVariance
+                    if abs variance > maxVar
+                           then getGreatestVarianceOfOpenAndCloseRec rest date <| abs variance
+                           else getGreatestVarianceOfOpenAndCloseRec rest maxVarDate maxVar
+
+            getGreatestVarianceOfOpenAndCloseRec data "" 0.0
+
+
         let result =  getGreatestVarianceOfOpenAndClose stockData
+        let resultRec = getGreatestVarianceOfOpenAndClose2 stockData
         
         AssertEquality "2012-03-13" result
+        AssertEquality "2012-03-13" resultRec
